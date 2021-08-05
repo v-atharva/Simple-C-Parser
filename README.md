@@ -6,7 +6,7 @@
 
 
 ## Commands to execute
-------------------------
+---
 1. lex scanner.l
 2. gcc lex.yy.c
 3. ./a.out test\ cases/Case1.c (Parse Successful message)
