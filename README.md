@@ -10,9 +10,9 @@
 2. gcc lex.yy.c
 3. ./a.out test\ cases/Case1.c (Parse Successful message)
 4. ./a.out test\ cases/Case2.c (Parse Unsuccessful message)
-5. cat symbolTable.txt 
-	       It represents the various lexemes that are part of the program, indicates the type and attribute value assigned, and the line number where it is present.
+5. cat symbolTable.txt
+        > It represents the various lexemes that are part of the program, indicates the type and attribute value assigned, and the line number where it is present.
 6. cat parsedTable.txt
-         It shows the tokens of the whole code, it includes various different types rather than restrciting to just identifiers.
+        > It shows the tokens of the whole code, it includes various different types rather than restrciting to just identifiers.
 7. cat constantTable.txt
-         It shows the constants used in the whole code.
+        > It shows the constants used in the whole code.
